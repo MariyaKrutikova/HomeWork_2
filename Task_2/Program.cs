@@ -16,6 +16,11 @@ int IntegerFromDiv(int number, int n)
 }
 
 int number = GetNewNumber();
+
+if (number < 0)
+{
+    number = -1 * number;
+}
 int n = 100;
 int m = 10;
 
